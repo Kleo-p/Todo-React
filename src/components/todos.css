@@ -1,0 +1,73 @@
+body {
+  color: blue;
+  background-color: rgb(60, 60, 61);
+}
+.top {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  /* align-content: center; */
+  justify-content: center;
+  margin: 30px 0;
+}
+.inner {
+  border: 5px solid rgb(119, 36, 36);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 7px;
+  height: 50vh;
+  width: 500px;
+  background-color: rgb(247, 111, 201);
+  box-shadow: 2px 3px 2px rgb(71, 65, 65);
+  overflow-y: auto;
+}
+.impb {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+.imp {
+  height: 20px;
+  width: 200px;
+  border-radius: 10px;
+  outline: none;
+  padding: 2px;
+  margin: 0 20px 0 0;
+  background-color: rgb(76, 77, 78);
+  border: 1px solid red;
+}
+.btnt {
+  padding: 0;
+  color: rgb(7, 150, 38);
+  width: 50px;
+  height: 25px;
+  font-weight: 900;
+  background-color: rgb(225, 245, 169);
+}
+.edit {
+  width: 18px;
+  height: 18px;
+  padding: 2px;
+}
+.del {
+  width: 20px;
+  height: 20px;
+}
+.tdc {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rgb(175, 31, 31);
+  margin: 6px 0;
+  padding: 1px 5px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color:rgb(240, 76, 185);
+  color: rgb(31, 17, 158);
+}
+.tdclear{
+  display: flex;
+  justify-content: space-between;
+}
+

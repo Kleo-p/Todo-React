@@ -1,13 +1,118 @@
-body {
+/* body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(228, 215, 215);
+} */
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style-type: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.navBar {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 17px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  justify-content: space-between;
+  background-color: rgb(230, 230, 245);
+  min-height: 30px;
+  box-shadow: 1px 2px 15px rgb(108, 108, 241);
+}
+.kleo {
+  font-size: 19px;
+}
+.socials ul {
+  display: flex;
+}
+.options ul {
+  display: flex;
+  /* padding: 0 5px; */
+}
+.options ul li {
+  padding: 0 15px;
+  margin: 0 5px;
+}
+.socials img {
+  height: 20px;
+  width: 20px;
+  padding: 0 5px;
+  margin: 0 5px;
+}
+.form {
+  margin: 15px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.inp input {
+  /* display: flex; */
+  flex-wrap: wrap;
+  padding: 4px 8px;
+  font-size: 17px;
+  width: 20rem;
+  margin: 20px 10px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(192, 170, 170);
+}
+button {
+  width: 9rem;
+  height: 2.3rem;
+  font-size: 17px;
+  color: blue;
+  border-radius: 9px;
+  border: 2px solid rgb(202, 196, 188);
+}
+.meImgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+.meImgs img {
+  height: 25rem;
+  width: 25rem;
+}
+.calc {
+  display: flex;
+  font-size: 22px;
+  color: rgb(238, 227, 227);
+  justify-content: center;
+  cursor: pointer;
+}
+.calc p {
+  margin: 0px 25px;
+  padding: 10px 17px;
+  background-color: red;
+  border-radius: 20px;
+}
+.calc div {
+  /* margin: 0px 25px; */
+  padding: 10px 27px;
+  background-color: rgb(140, 0, 255);
+  border-radius: 20px;
+}
+.box {
+  height: 30px;
+  width: 30px;
+  border: 2px solid rgb(240, 95, 119);
+  padding: 3px;
+  margin: 2px;
+  border-radius: 6px;
+  display: inline-block;
 }
