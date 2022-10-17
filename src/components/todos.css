@@ -35,7 +35,7 @@ body {
   outline: none;
   padding: 2px;
   margin: 0 20px 0 0;
-  background-color: rgb(76, 77, 78);
+  background-color: rgb(219, 197, 208);
   border: 1px solid red;
 }
 .btnt {
@@ -63,11 +63,10 @@ body {
   padding: 1px 5px;
   border-radius: 8px;
   cursor: pointer;
-  background-color:rgb(240, 76, 185);
+  background-color: rgb(240, 76, 185);
   color: rgb(31, 17, 158);
 }
-.tdclear{
+.tdclear {
   display: flex;
   justify-content: space-between;
 }
-
