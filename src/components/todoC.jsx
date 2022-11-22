@@ -25,7 +25,7 @@ export default function Tod(props) {
         <img
           className="del"
           src="./images/del.png"
-          alt="del"
+          alt=""
           onClick={() => props.del(props.id)}
         />
       </div>
